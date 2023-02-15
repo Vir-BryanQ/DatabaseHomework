@@ -1,0 +1,308 @@
+Start testing: Feb 15 14:26 CST
+----------------------------------------------------------
+1/13 Testing: buffer_pool_manager_test
+1/13 Test: buffer_pool_manager_test
+Command: "/home/vir-bryanq-dylan/DataBaseHomework/Homework3/scudb/build/test/buffer_pool_manager_test" "--gtest_color=yes" "--gtest_output=xml:/home/vir-bryanq-dylan/DataBaseHomework/Homework3/scudb/build/test/buffer_pool_manager_test.xml"
+Directory: /home/vir-bryanq-dylan/DataBaseHomework/Homework3/scudb/build/test
+"buffer_pool_manager_test" start time: Feb 15 14:26 CST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+[0;32m[==========] [mRunning 1 test from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m1 test from BufferPoolManagerTest
+[0;32m[ RUN      ] [mBufferPoolManagerTest.SampleTest
+[0;32m[       OK ] [mBufferPoolManagerTest.SampleTest (1 ms)
+[0;32m[----------] [m1 test from BufferPoolManagerTest (1 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m1 test from 1 test case ran. (1 ms total)
+[0;32m[  PASSED  ] [m1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"buffer_pool_manager_test" end time: Feb 15 14:26 CST
+"buffer_pool_manager_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/13 Testing: lru_replacer_test
+2/13 Test: lru_replacer_test
+Command: "/home/vir-bryanq-dylan/DataBaseHomework/Homework3/scudb/build/test/lru_replacer_test" "--gtest_color=yes" "--gtest_output=xml:/home/vir-bryanq-dylan/DataBaseHomework/Homework3/scudb/build/test/lru_replacer_test.xml"
+Directory: /home/vir-bryanq-dylan/DataBaseHomework/Homework3/scudb/build/test
+"lru_replacer_test" start time: Feb 15 14:26 CST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+[0;32m[==========] [mRunning 1 test from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m1 test from LRUReplacerTest
+[0;32m[ RUN      ] [mLRUReplacerTest.SampleTest
+[0;32m[       OK ] [mLRUReplacerTest.SampleTest (0 ms)
+[0;32m[----------] [m1 test from LRUReplacerTest (1 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m1 test from 1 test case ran. (1 ms total)
+[0;32m[  PASSED  ] [m1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"lru_replacer_test" end time: Feb 15 14:26 CST
+"lru_replacer_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/13 Testing: rwmutex_test
+3/13 Test: rwmutex_test
+Command: "/home/vir-bryanq-dylan/DataBaseHomework/Homework3/scudb/build/test/rwmutex_test" "--gtest_color=yes" "--gtest_output=xml:/home/vir-bryanq-dylan/DataBaseHomework/Homework3/scudb/build/test/rwmutex_test.xml"
+Directory: /home/vir-bryanq-dylan/DataBaseHomework/Homework3/scudb/build/test
+"rwmutex_test" start time: Feb 15 14:26 CST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+[0;32m[==========] [mRunning 1 test from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m1 test from RWMutexTest
+[0;32m[ RUN      ] [mRWMutexTest.BasicTest
+[0;32m[       OK ] [mRWMutexTest.BasicTest (4 ms)
+[0;32m[----------] [m1 test from RWMutexTest (4 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m1 test from 1 test case ran. (4 ms total)
+[0;32m[  PASSED  ] [m1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"rwmutex_test" end time: Feb 15 14:26 CST
+"rwmutex_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/13 Testing: lock_manager_test
+4/13 Test: lock_manager_test
+Command: "/home/vir-bryanq-dylan/DataBaseHomework/Homework3/scudb/build/test/lock_manager_test" "--gtest_color=yes" "--gtest_output=xml:/home/vir-bryanq-dylan/DataBaseHomework/Homework3/scudb/build/test/lock_manager_test.xml"
+Directory: /home/vir-bryanq-dylan/DataBaseHomework/Homework3/scudb/build/test
+"lock_manager_test" start time: Feb 15 14:26 CST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+[0;32m[==========] [mRunning 1 test from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m1 test from LockManagerTest
+[0;32m[ RUN      ] [mLockManagerTest.BasicTest
+/home/vir-bryanq-dylan/DataBaseHomework/Homework3/scudb/test/concurrency/lock_manager_test.cpp:25: Failure
+Value of: true
+Expected: res
+Which is: false
+/home/vir-bryanq-dylan/DataBaseHomework/Homework3/scudb/test/concurrency/lock_manager_test.cpp:34: Failure
+Value of: true
+Expected: res
+Which is: false
+[0;31m[  FAILED  ] [mLockManagerTest.BasicTest (0 ms)
+[0;32m[----------] [m1 test from LockManagerTest (0 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m1 test from 1 test case ran. (1 ms total)
+[0;32m[  PASSED  ] [m0 tests.
+[0;31m[  FAILED  ] [m1 test, listed below:
+[0;31m[  FAILED  ] [mLockManagerTest.BasicTest
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"lock_manager_test" end time: Feb 15 14:26 CST
+"lock_manager_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/13 Testing: extendible_hash_test
+5/13 Test: extendible_hash_test
+Command: "/home/vir-bryanq-dylan/DataBaseHomework/Homework3/scudb/build/test/extendible_hash_test" "--gtest_color=yes" "--gtest_output=xml:/home/vir-bryanq-dylan/DataBaseHomework/Homework3/scudb/build/test/extendible_hash_test.xml"
+Directory: /home/vir-bryanq-dylan/DataBaseHomework/Homework3/scudb/build/test
+"extendible_hash_test" start time: Feb 15 14:26 CST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+[0;32m[==========] [mRunning 3 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m3 tests from ExtendibleHashTest
+[0;32m[ RUN      ] [mExtendibleHashTest.SampleTest
+[0;32m[       OK ] [mExtendibleHashTest.SampleTest (0 ms)
+[0;32m[ RUN      ] [mExtendibleHashTest.ConcurrentInsertTest
+[0;32m[       OK ] [mExtendibleHashTest.ConcurrentInsertTest (5 ms)
+[0;32m[ RUN      ] [mExtendibleHashTest.ConcurrentRemoveTest
+[0;32m[       OK ] [mExtendibleHashTest.ConcurrentRemoveTest (8 ms)
+[0;32m[----------] [m3 tests from ExtendibleHashTest (13 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m3 tests from 1 test case ran. (13 ms total)
+[0;32m[  PASSED  ] [m3 tests.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"extendible_hash_test" end time: Feb 15 14:26 CST
+"extendible_hash_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/13 Testing: b_plus_tree_concurrent_test
+6/13 Test: b_plus_tree_concurrent_test
+Command: "/home/vir-bryanq-dylan/DataBaseHomework/Homework3/scudb/build/test/b_plus_tree_concurrent_test" "--gtest_color=yes" "--gtest_output=xml:/home/vir-bryanq-dylan/DataBaseHomework/Homework3/scudb/build/test/b_plus_tree_concurrent_test.xml"
+Directory: /home/vir-bryanq-dylan/DataBaseHomework/Homework3/scudb/build/test
+"b_plus_tree_concurrent_test" start time: Feb 15 14:26 CST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+[0;32m[==========] [mRunning 5 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m5 tests from BPlusTreeConcurrentTest
+[0;32m[ RUN      ] [mBPlusTreeConcurrentTest.InsertTest1
+[0;32m[       OK ] [mBPlusTreeConcurrentTest.InsertTest1 (10 ms)
+[0;32m[ RUN      ] [mBPlusTreeConcurrentTest.InsertTest2
+[0;32m[       OK ] [mBPlusTreeConcurrentTest.InsertTest2 (7 ms)
+[0;32m[ RUN      ] [mBPlusTreeConcurrentTest.DeleteTest1
+[0;32m[       OK ] [mBPlusTreeConcurrentTest.DeleteTest1 (0 ms)
+[0;32m[ RUN      ] [mBPlusTreeConcurrentTest.DeleteTest2
+[0;32m[       OK ] [mBPlusTreeConcurrentTest.DeleteTest2 (1 ms)
+[0;32m[ RUN      ] [mBPlusTreeConcurrentTest.MixTest
+[0;32m[       OK ] [mBPlusTreeConcurrentTest.MixTest (1 ms)
+[0;32m[----------] [m5 tests from BPlusTreeConcurrentTest (19 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m5 tests from 1 test case ran. (19 ms total)
+[0;32m[  PASSED  ] [m5 tests.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"b_plus_tree_concurrent_test" end time: Feb 15 14:26 CST
+"b_plus_tree_concurrent_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/13 Testing: b_plus_tree_print_test
+7/13 Test: b_plus_tree_print_test
+Command: "/home/vir-bryanq-dylan/DataBaseHomework/Homework3/scudb/build/test/b_plus_tree_print_test" "--gtest_color=yes" "--gtest_output=xml:/home/vir-bryanq-dylan/DataBaseHomework/Homework3/scudb/build/test/b_plus_tree_print_test.xml"
+Directory: /home/vir-bryanq-dylan/DataBaseHomework/Homework3/scudb/build/test
+"b_plus_tree_print_test" start time: Feb 15 14:26 CST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+[0;32m[==========] [mRunning 1 test from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m1 test from BptTreeTest
+[0;32m[ RUN      ] [mBptTreeTest.UnitTest
+Enter any of the following commands after the prompt > :
+	i <k>  -- Insert <k> (int64_t) as both key and value).
+	f <filename>  -- insert keys bying reading file.
+	d <filename>  -- delete keys bying reading file.
+	a <k>  -- Delete key <k> and its associated value.
+	r <k1> <k2> -- Print the keys and values found in the range [<k1>, <k2>]
+	x -- Destroy the whole tree.  Start again with an empty tree of the same order.
+	t -- Print the B+ tree.
+	q -- Quit. (Or use Ctl-D.)
+	? -- Print this help message.
+
+> [0;32m[       OK ] [mBptTreeTest.UnitTest (15991 ms)
+[0;32m[----------] [m1 test from BptTreeTest (15991 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m1 test from 1 test case ran. (15992 ms total)
+[0;32m[  PASSED  ] [m1 test.
+<end of output>
+Test time =  16.00 sec
+----------------------------------------------------------
+Test Passed.
+"b_plus_tree_print_test" end time: Feb 15 14:26 CST
+"b_plus_tree_print_test" time elapsed: 00:00:15
+----------------------------------------------------------
+
+8/13 Testing: b_plus_tree_test
+8/13 Test: b_plus_tree_test
+Command: "/home/vir-bryanq-dylan/DataBaseHomework/Homework3/scudb/build/test/b_plus_tree_test" "--gtest_color=yes" "--gtest_output=xml:/home/vir-bryanq-dylan/DataBaseHomework/Homework3/scudb/build/test/b_plus_tree_test.xml"
+Directory: /home/vir-bryanq-dylan/DataBaseHomework/Homework3/scudb/build/test
+"b_plus_tree_test" start time: Feb 15 14:26 CST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+[0;32m[==========] [mRunning 5 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m5 tests from BPlusTreeTests
+[0;32m[ RUN      ] [mBPlusTreeTests.InsertTest1
+[0;32m[       OK ] [mBPlusTreeTests.InsertTest1 (2 ms)
+[0;32m[ RUN      ] [mBPlusTreeTests.InsertTest2
+[0;32m[       OK ] [mBPlusTreeTests.InsertTest2 (0 ms)
+[0;32m[ RUN      ] [mBPlusTreeTests.DeleteTest1
+[0;32m[       OK ] [mBPlusTreeTests.DeleteTest1 (1 ms)
+[0;32m[ RUN      ] [mBPlusTreeTests.DeleteTest2
+[0;32m[       OK ] [mBPlusTreeTests.DeleteTest2 (0 ms)
+[0;32m[ RUN      ] [mBPlusTreeTests.ScaleTest
+[0;32m[       OK ] [mBPlusTreeTests.ScaleTest (495 ms)
+[0;32m[----------] [m5 tests from BPlusTreeTests (498 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m5 tests from 1 test case ran. (498 ms total)
+[0;32m[  PASSED  ] [m5 tests.
+<end of output>
+Test time =   0.50 sec
+----------------------------------------------------------
+Test Passed.
+"b_plus_tree_test" end time: Feb 15 14:26 CST
+"b_plus_tree_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/13 Testing: log_manager_test
+9/13 Test: log_manager_test
+Command: "/home/vir-bryanq-dylan/DataBaseHomework/Homework3/scudb/build/test/log_manager_test" "--gtest_color=yes" "--gtest_output=xml:/home/vir-bryanq-dylan/DataBaseHomework/Homework3/scudb/build/test/log_manager_test.xml"
+Directory: /home/vir-bryanq-dylan/DataBaseHomework/Homework3/scudb/build/test
+"log_manager_test" start time: Feb 15 14:26 CST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+[0;32m[==========] [mRunning 2 tests from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m2 tests from LogManagerTest
+[0;32m[ RUN      ] [mLogManagerTest.BasicLogging
+2023-02-15 14:26:23 [test/logging/log_manager_test.cpp:16:TestBody] DEBUG - Skip system recovering...
+/home/vir-bryanq-dylan/DataBaseHomework/Homework3/scudb/test/logging/log_manager_test.cpp:19: Failure
+Value of: ENABLE_LOGGING
+  Actual: false
+Expected: true
+2023-02-15 14:26:23 [test/logging/log_manager_test.cpp:20:TestBody] DEBUG - System logging thread running...
+2023-02-15 14:26:23 [test/logging/log_manager_test.cpp:22:TestBody] DEBUG - Create a test table
+2023-02-15 14:26:23 [src/table/table_heap.cpp:29:TableHeap] DEBUG - new table page created 0
+2023-02-15 14:26:23 [test/logging/log_manager_test.cpp:27:TestBody] DEBUG - Insert and delete a random tuple
+2023-02-15 14:26:23 [test/logging/log_manager_test.cpp:37:TestBody] DEBUG - Commit txn
+2023-02-15 14:26:23 [test/logging/log_manager_test.cpp:41:TestBody] DEBUG - Turning off flushing thread
+2023-02-15 14:26:23 [test/logging/log_manager_test.cpp:47:TestBody] DEBUG - size  = 0
+2023-02-15 14:26:23 [test/logging/log_manager_test.cpp:49:TestBody] DEBUG - size  = 167772160
+2023-02-15 14:26:23 [test/logging/log_manager_test.cpp:51:TestBody] DEBUG - size  = 0
+2023-02-15 14:26:23 [test/logging/log_manager_test.cpp:55:TestBody] DEBUG - Teared down the system
+[0;31m[  FAILED  ] [mLogManagerTest.BasicLogging (2 ms)
+[0;32m[ RUN      ] [mLogManagerTest.RedoTestWithOneTxn
+2023-02-15 14:26:23 [test/logging/log_manager_test.cpp:65:TestBody] DEBUG - Skip system recovering...
+/home/vir-bryanq-dylan/DataBaseHomework/Homework3/scudb/test/logging/log_manager_test.cpp:68: Failure
+Value of: ENABLE_LOGGING
+  Actual: false
+Expected: true
+2023-02-15 14:26:23 [test/logging/log_manager_test.cpp:69:TestBody] DEBUG - System logging thread running...
+2023-02-15 14:26:23 [test/logging/log_manager_test.cpp:71:TestBody] DEBUG - Create a test table
+2023-02-15 14:26:23 [src/table/table_heap.cpp:29:TableHeap] DEBUG - new table page created 0
+Tuple: (w2PXy, 82, 7270, true, U9AB3qLsY) Tuple size is 43
+Tuple1: (0, 243, 81143, true, pY4b8pk6) Tuple size is 38
+2023-02-15 14:26:23 [test/logging/log_manager_test.cpp:93:TestBody] DEBUG - Commit txn
+2023-02-15 14:26:23 [test/logging/log_manager_test.cpp:95:TestBody] DEBUG - SLEEPING for 2s
+2023-02-15 14:26:25 [src/disk/disk_manager.cpp:96:ReadPage] DEBUG - Read less than a page
+/home/vir-bryanq-dylan/DataBaseHomework/Homework3/scudb/test/logging/log_manager_test.cpp:114: Failure
+Value of: 1
+Expected: test_table->GetTuple(rid, old_tuple, txn)
+Which is: false
+log_manager_test: /home/vir-bryanq-dylan/DataBaseHomework/Homework3/scudb/src/table/tuple.cpp:75: scudb::Value scudb::Tuple::GetValue(scudb::Schema*, int) const: Assertion `data_' failed.
+<end of output>
+Test time =   2.19 sec
+----------------------------------------------------------
+Test Failed.
+"log_manager_test" end time: Feb 15 14:26 CST
+"log_manager_test" time elapsed: 00:00:02
+----------------------------------------------------------
+
